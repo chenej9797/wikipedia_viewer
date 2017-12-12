@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot");
+  src: url("../fonts/icomoon/icomoon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.woff") format("woff"),
+    url("../fonts/icomoon/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+html,body {
+  width:100%;
+  height:100%;
+  overflowX:hidden;
+}
+.container {
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+#wikiImg {
+  display: block;
+  margin: 40px auto;
+}
+body {
+  background-color: #526d7c;
+}
+.searchbox {
+  position: relative;
+  min-width: 100px;
+  width: 0%;
+  height: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  -webkit-transition: width 0.6s;
+  -moz-transition: width 0.6s;
+  -ms-transition: width 0.6s;
+  -o-transition: width 0.6s;
+  transition: width 0.6s;
+}
+.searchbox-input {
+  top: 0;
+  right: 0;
+  border: 0;
+  outline: 0;
+  background: #e8ccc7;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0px 55px 0px 20px;
+  font-size: 20px;
+  color: white;
+}
+.searchbox-input::-webkit-input-placeholder {
+  color: white;
+}
+.searchbox-input:-moz-placeholder {
+  color: white;
+}
+.searchbox-input::-moz-placeholder {
+  color: white;
+}
+.searchbox-input:-ms-input-placeholder {
+  color: white;
+}
+.iconImg {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.iconSm {
+  width: 50px;
+  height: 50px;
+}
+.searchbox-submit {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 0;
+  font-family: verdana;
+  font-size: 22px;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0px;
+  background: #526d7c;
+}
+.submitSm {
+  width: 50px;
+  height: 50px;
+  background: #f0b1af;
+}
+.searchbox-open {
+  width: 80%;
+  height: 50px;
+}
+a:hover {
+  text-decoration: none;
+}
+.titleText {
+  margin-top: 20px;
+  font-size: 40px;
+  text-align:center;
+}
+.titleText > a {
+  text-decoration: none;
+  font-family: "Lobster", cursive;
+  color: #e5e5e5;
+}
+ul {
+  position:relative;
+  margin: 0 auto;
+  padding: 0;
+}
+li {
+  position:relative;
+  float:center;
+  left:5%;
+  line-height: 26px;
+  margin-top: 15px;
+  background-color: #f4e5e4;
+  width: 90%;
+  padding: 15px;
+  list-style: none;
+  font-family: "icomoon";
+  font-size: 18px;
+  color: #868188;
+  transition: 0.5s;
+}
+li:hover {
+  background-color: #e8ccc7;
+  transform: translate(-4px, -4px);
+  box-shadow: 6px 6px 8px #455458;
+}
+li > p {
+  color: #8192a2;
+  font-size: 16px;
+}
