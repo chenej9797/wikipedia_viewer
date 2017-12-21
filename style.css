@@ -15,6 +15,7 @@ html,body {
   overflowX:hidden;
 }
 .container {
+  padding-top: 50px;
   display:flex;
   justify-content:center;
   flex-direction:column;
